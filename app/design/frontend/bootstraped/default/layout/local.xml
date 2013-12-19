@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+    <!-- Default handle, loaded on most pages -->
+    <default>
+
+        <reference name="head">
+
+            <!-- Add Bootstraped assets -->
+            <action method="addCss">
+                <stylesheet>css/bootstrap.min.css</stylesheet>
+            </action>
+            <action method="addCss">
+                <stylesheet>css/custom.css</stylesheet>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/custom.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/bootstrap.min.js</name>
+            </action>
+
+        </reference>
+
+    </default>
+
+    <print>
+
+        <reference name="head">
+
+            <!-- Add Bstheme assets -->
+            <action method="addCss">
+                <stylesheet>css/bootstrap.min.css</stylesheet>
+            </action>
+            <action method="addCss">
+                <stylesheet>css/custom.css</stylesheet>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/custom.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/bootstrap.min.js</name>
+            </action>
+
+
+        </reference>
+
+    </print>
+
+</layout>
